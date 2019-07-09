@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="TestNGExpedia(failed)">
+    <classes>
+      <class name="bookFlights.Verify_FlightBooking_Functionality">
+        <methods>
+          <include name="Validate_FlightBooking"/>
+          <include name="SetUpBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- bookFlights.Verify_FlightBooking_Functionality -->
+    </classes>
+  </test> <!-- TestNGExpedia(failed) -->
+</suite> <!-- Failed suite [Suite] -->

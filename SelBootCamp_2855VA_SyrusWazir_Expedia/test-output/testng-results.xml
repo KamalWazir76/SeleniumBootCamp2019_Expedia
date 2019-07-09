@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93266" started-at="2019-07-09T22:41:41Z" finished-at="2019-07-09T22:43:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93266" started-at="2019-07-09T22:41:41Z" finished-at="2019-07-09T22:43:14Z">
+      <class name="bookFlights.Verify_FlightBooking_Functionality">
+        <test-method status="PASS" signature="SetUpBrowser()[pri:0, instance:bookFlights.Verify_FlightBooking_Functionality@18be83e4]" name="SetUpBrowser" is-config="true" duration-ms="19303" started-at="2019-07-09T22:41:41Z" finished-at="2019-07-09T22:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBrowser -->
+        <test-method status="PASS" signature="Validate_FlightBooking()[pri:0, instance:bookFlights.Verify_FlightBooking_Functionality@18be83e4]" name="Validate_FlightBooking" duration-ms="72585" started-at="2019-07-09T22:42:00Z" finished-at="2019-07-09T22:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_FlightBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:bookFlights.Verify_FlightBooking_Functionality@18be83e4]" name="tearDown" is-config="true" duration-ms="1280" started-at="2019-07-09T22:43:13Z" finished-at="2019-07-09T22:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bookFlights.Verify_FlightBooking_Functionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
