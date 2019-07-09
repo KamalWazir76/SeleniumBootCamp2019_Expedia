@@ -107,6 +107,7 @@ public class Verify_FlightBooking_Functionality extends BaseClass{
 	@AfterClass
 	public void tearDown()
 	{
+		System.out.println("Successfully committed the code to GitHub");
 		driver.quit();
 	}
 
